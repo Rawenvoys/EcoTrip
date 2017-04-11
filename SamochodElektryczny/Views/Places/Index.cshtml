@@ -1,0 +1,63 @@
+﻿@model IEnumerable<SamochodElektryczny.Models.Place>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+@*<h2>Index</h2>*@
+
+<h3>Liczba dodanych atrakcji @Model.Where(t => t.Type == "Atrakcja").Count()</h3>
+
+<h3>Liczba dodanych punktów ładowań @Model.Where(t => t.Type == "Punkt").Count()</h3>
+
+<br />
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Lat)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Lng)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Rate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Type)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Lat)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Lng)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Rate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Type)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.PlaceID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.PlaceID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.PlaceID })
+        </td>
+    </tr>
+}
+
+</table>

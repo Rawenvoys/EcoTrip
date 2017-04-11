@@ -1,0 +1,56 @@
+﻿@model IEnumerable<SamochodElektryczny.Models.Place>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<div id="map"></div>
+<script type="text/javascript">
+
+    function initMap() {
+        var katowice = { lat: 50.270908, lng: 19.039993 };
+
+        var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 8,
+            center: katowice
+        });
+
+        @foreach (var place in Model)
+        {
+            if (place.Type.Equals("Punkt"))
+            {
+                <text>
+                 var img = 'http://www.ecomoto.info/img/gniazdko.png'
+                </text>
+            }
+            else
+            {
+                <text>
+                var img = null;
+                </text>
+            }
+            <text>
+            var latLng = {lat:</text> @place.Lat<text>, lng: </text>@place.Lng<text>};
+            </text>
+            <text>
+            var name = '</text>@place.Name<text>';
+            </text>
+            <text>
+            var marker = new google.maps.Marker({
+                position: latLng,
+                map: map,
+                title: name,
+                icon : img
+            });
+            </text>
+        }
+    }
+
+</script>
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCAKaE_Uic884u36ErvzEpahH8sCRhwkA0&callback=initMap">
+</script>
+
+
+

@@ -1,0 +1,271 @@
+Kopalnia Guido w Zabrzu 50.27191 18.86805 9 Atrakcja
+Nikiszowiec w Katowicach 50.24774 19.07117 9.2 Atrakcja
+Pomnik Powstańców Śląskich w Katowicach 50.26353 19.02629 9.6 Atrakcja
+Spodek w Katowicach 50.26605 19.02537 9 Atrakcja
+Bazylika w Panewnikach 50.22702 18.96363 10 Atrakcja
+Teatr Śląski w Katowicach 50.25956 19.02322 9.4 Atrakcja
+Galeria Szyb Wilson w Katowicach 50.25064 19.08362 8.8 Atrakcja
+Dolina Trzech Stawów w Katowicach 50.24242 19.04224 9.4 Atrakcja
+Las Murckowski w Katowicach 50.18842 19.0485 9.8 Atrakcja
+Park Kościuszki w Katowicach 50.2459 19.00464 9.2 Atrakcja
+Katedra w Katowicach 50.25211 19.01922 9.2 Atrakcja
+Kąpielisko Hubertus w Mysłowicach 50.2609 19.12659 8 Atrakcja
+Muzeum Historii Katowic na Nikiszowcu 50.25534 19.02836 10 Atrakcja
+Drewniany kościół w Katowicach 50.23875 18.99722 9.2 Atrakcja
+Kościół Św. Anny na Nikiszowcu 50.24327 19.08061 9.4 Atrakcja
+Silesia City Center w Katowicach 50.2706 19.00232 8.8 Atrakcja
+Kościół pw. Królowej Apostołów 50.09074 18.54638 4 Atrakcja
+Kościół pw. Matki Boskiej Bolesnej 50.09741 18.54196 4.6 Atrakcja
+Kościół pw. św. Józefa Robotnika 50.094 18.53623 3 Atrakcja
+Kaplica Matki Bożej Częstochowskiej 50.09186 18.51393 4 Atrakcja
+Parafia rzymskokatolicka św. Antoniego 50.09827 18.5499 4.6 Atrakcja
+Parafia rzymskokatolicka św. Jadwigi Śląskiej 50.0984 18.52324 2.3 Atrakcja
+Parafia św. Barbary 50.0507 18.60343 4.8 Atrakcja
+Kościół pw. św. Floriana 50.11816 18.52009 2.5 Atrakcja
+Kościół pw. św. Brata Alberta Chmielowskiego 50.13821 18.59985 3.5 Atrakcja
+Parafia rzymskokatolicka św. Teresy od Dzieciątka Jezus 50.06161 18.55177 4.8 Atrakcja
+Kościół pw. Bożego Ciała 50.04852 18.54765 5 Atrakcja
+Jankowicka studzienka 50.03503 18.53584 4.4 Atrakcja
+Kościół Wniebowzięcia Najświętszej Maryi Panny 50.00391 18.46232 5 Atrakcja
+Kościół Św. Stanisława - Biskupa i Męczennika 50.03297 18.68729 4.9 Atrakcja
+Kościół Miłosierdzia Bożego 50.03242 18.7008 4.8 Atrakcja
+Kościół pw. św. Maksymiliana Marii Kolbe 50.03977 18.75206 3 Atrakcja
+Kościół św. Piotra i Pawła 50.08126 18.75689 5 Atrakcja
+Parafia rzymskokatolicka św. Karola Boromeusza 50.00743 18.80801 2.5 Atrakcja
+Parafia Rzymskokatolicka pw. św. Jana Chrzciciela 49.9605 18.71963 2.5 Atrakcja
+Kościół pw. Wniebowzięcia Najświętszej Maryi Panny w Studzionce 49.96117 18.77306 2.5 Atrakcja
+Kościół p.w. Chrystusa Króla 49.89539 18.81376 5 Atrakcja
+Kaplica św. Antoniego z Padwy 50.0675 18.91417 4.5 Atrakcja
+Kościół pw. Podwyższenia Krzyża Świętego i Matki Bożej Częstochowskiej 49.97026 18.9417 4.9 Atrakcja
+Kościół pw. św. Józefa w Zabrzegu 49.91764 18.94294 2.5 Atrakcja
+Kościół NMP Wspomożenia Wiernych 49.91845 18.99253 3 Atrakcja
+Kościół Ścięcia św. Jana Chrzciciela w Grzawie 1 opinia 49.96686 19.05474 2.5 Atrakcja
+Kościół Niepokalanego Serca NMP 49.93835 19.04911 5 Atrakcja
+Kościół pw. Wniebowzięcia Najświętszej Maryi Panny 49.90393 19.05838 2.5 Atrakcja
+Sanktuarium pw. św. Walentego 50.0896 19.09338 5 Atrakcja
+Parafia Matki Boskiej Piekarskiej 50.01226 19.10044 4 Atrakcja
+Kościół św. Marcina 49.96017 19.13486 5 Atrakcja
+Matki Bożej Niepokalanej, Centrum św. Maksymiliana w Harmężach 50.01712 19.14842 2.5 Atrakcja
+Kościół pw. Św. Barbary 50.07784 19.16172 3 Atrakcja
+Kaplica na Borze parafii św. Urbana w Brzeszczach 50.0036 19.1629 2.5 Atrakcja
+Kościół św.Małgorzaty w Dębowcu 49.81018 18.71673 4.5 Atrakcja
+Kościół pw. św.Jakuba Apostoła 49.81135 18.7618 5 Atrakcja
+Kościół św. Apostołów Piotra i Pawła 3,3 49.80211 18.78737 3.3 Atrakcja
+Kościół pw. Świętego Ducha 49.80358 18.89359 2.5 Atrakcja
+Parafia rzymskokatolicka pw. św. Małgorzaty 49.80066 19.01708 2.5 Atrakcja
+Kościół św. Maksymiliana Kolbego 49.81266 19.01739 5 Atrakcja
+Parafia rzymskokatolicka pw. NMP Królowej Polski 49.81745 19.03754 4.5 Atrakcja
+Kościół św. Jana Chrzciciela 49.85418 19.0421 4.8 Atrakcja
+Parafia katedralna Pw. Św. Mikołaja 49.82011 19.04265 4.1 Atrakcja
+Kościół św. Andrzeja Boboli 49.7937 19.04107 4.7 Atrakcja
+Kościół Opatrzności Bożej 49.82131 19.05644 4.6 Atrakcja
+Parafia rzymskokatolicka pw. NMP Królowej Świata 49.78996 19.05272 3.7 Atrakcja
+Kościół św. Józefa 49.81062 19.06671 4.7 Atrakcja
+Kośció św. Barbary 49.78139 19.07319 5 Atrakcja
+Parafia rzymskokatolicka pw. Narodzenia NMP 49.81932 19.08791 5 Atrakcja
+Kościół Matki Bożej Pocieszenia 49.79719 19.09525 4.2 Atrakcja
+Zameczek Myśliwski Promnice 49.97992 19.21225 8.8 Atrakcja
+Paprocany 50.08659 18.96166 9 Atrakcja
+Pałac w Bytomiu Miechowicach 50.35548 18.81248 8 Atrakcja
+Pałac w Pławniowicach 50.33916 18.41842 9.2 Atrakcja
+Pałac w Nakle Śląskim 50.40887 18.90177 9 Atrakcja
+Pałac Donnersmarcków w Siemianowicach Śląskich 50.33709 19.07494 9.4 Atrakcja
+Pałac w Szałszy 50.28508 18.70704 8.2 Atrakcja
+Charge1  50.62719 18.63244 0 Punkt
+Charge2  49.84726 18.99361 0 Punkt
+Charge3 49.95653 18.96651 0 Punkt
+Charge4  50.0809 18.52219 0 Punkt
+Charge5 50.23393 19.16344 0 Punkt
+Charge7 50.28354 19.10879 0 Punkt
+Charge8 49.86591 19.14556 0 Punkt
+Charge9 50.17857 18.85961 0 Punkt
+Charge10 50.7367 18.95138 0 Punkt
+Charge21 50.48645 19.34187 0 Punkt
+Charge20 50.32175 19.18088 0 Punkt
+Charge19 50.26858 19.18212 0 Punkt
+Charge18 50.34479 18.98671 0 Punkt
+Charge17 50.34502 19.01377 0 Punkt
+Charge16 50.43977 18.81025 0 Punkt
+Charge15 50.31387 18.7938 0 Punkt
+Charge14 50.32204 18.43471 0 Punkt
+Charge13 50.31253 18.77124 0 Punkt
+Charge12 50.09683 18.54077 0 Punkt
+Charge11 49.76176 19.05019 0 Punkt
+Pałac Dietla w Sosnowcu 50.27606 19.12748 8.6 Atrakcja
+Pałac Schona w Sosnowcu 50.29913 19.14113 9 Atrakcja
+Nowy Pałac Schona w Sosnowcu 50.28613 19.10607 8 Atrakcja
+Pałac Mieroszewskich w Będzinie 50.36787 18.83766 9.4 Atrakcja
+Pałac w Rybnej 50.45967 18.74891 8.6 Atrakcja
+Dwór Mieroszewskich w Sosnowcu 50.30095 19.14736 6 Atrakcja
+Pałac w Będzinie Grodźcu 50.32946 19.03969 9.4 Atrakcja
+Pałac Wilhelma w Sosnowcu 50.30044 19.141 8 Atrakcja
+Pałac w Kaletach Zielonej 50.45928 18.89703 8.4 Atrakcja
+Parafia rzymskokatolicka św. Jadwigi 50.6846 18.51977 4 Atrakcja
+Sanktuarium Matki Bożej w Lubecku 50.69841 18.64642 4.5 Atrakcja
+Parafia rzymskokatolicka św. Edyty Stein 50.69001 18.6671 4.7 Atrakcja
+Kościół Świętego Stanisława Kostki 50.66853 18.67693 5 Atrakcja
+Kościół Świętej Anny 50.67179 18.67985 2.5 Atrakcja
+Kościół Podwyższenia Krzyża Świętego 50.66869 18.68551 2.5 Atrakcja
+Kościół pw Najświętszego Serca Pana Jezusa 50.74531 18.87829 5 Atrakcja
+Parafia Rzymskokatolicka Świętej Trójcy 50.62091 18.84306 5 Atrakcja
+Parafia św. Józefa 50.55783 18.88086 5 Atrakcja
+Parafia rzymskokatolicka Świętego Krzyża 50.61462 18.90305 2 Atrakcja
+Kościół św. Szymona i św. Judy Tadeusza 50.62578 19.36568 2.5 Atrakcja
+Kościół Najświętszej Marii Panny 50.42594 19.25393 5 Atrakcja
+Kościół rzymskokatolicki pw. św. Maksymiliana Kolbego 50.50914 19.41319 3.7 Atrakcja
+Kościół rzymskokatolicki NMP Królowej Polski 50.47897 19.44069 5 Atrakcja
+Kościół rzymskokatolicki św. Franciszka z Asyżu 50.57948 19.4422 4 Atrakcja
+Kościół pw. Przemienienia Pańskiego 50.45261 19.52661 5 Atrakcja
+Sanktuarium św Antoniego Padewskiego 50.58648 19.18479 2.5 Atrakcja
+Kościół św. Macieja Apostoła 50.46912 19.23916 4 Atrakcja
+Kościół św. Jana Chrzciciela 50.45597 19.23101 5 Atrakcja
+Kościół p.w. Św. Anny 50.54794 19.29839 2.5 Atrakcja
+Kościół pw św Stanisława BM 50.57598 19.33495 5 Atrakcja
+Kościół pw. Miłosierdzia Bożego 50.13458 18.97027 2.5 Atrakcja
+Kościół pw. św. Marii Magdaleny 50.13051 18.98192 4.8 Atrakcja
+Kościół pw. św. Jadwigi Śląskiej 50.12273 18.97062 4.5 Atrakcja
+Kościół pw. Świętej Rodziny 50.11772 18.99375 5 Atrakcja
+Kościół pw. św. Krzysztofa 50.11231 19.00488 4 Atrakcja
+Kościół pw. św. Franciszka i św. Klary 50.10524 19.00209 4.7 Atrakcja
+Kościół pw. Najświętszego Serca Pana Jezusa 50.09956 18.99515 2.5 Atrakcja
+Kościół pw. Matki Bożej Pośredniczki Wszelkich Łask 50.11426 19.04819 4 Atrakcja
+Kościół pw. Św. Piotra i Pawła 50.20859 18.82181 2.5 Atrakcja
+Bazylika pw. św. Wojciecha 50.16904 18.90896 4.8 Atrakcja
+Kościół NMP Matki Zbawiciela 50.17488 18.88447 5 Atrakcja
+Kaplica św. Józefa 50.2376 18.86662 2.5 Atrakcja
+Cmentarz Centralny 50.30612 18.63762 4.4 Atrakcja
+Cmentarz Komunalny 50.24764 19.05201 3.9 Atrakcja
+Cmentarz Komunalny w Częstochowie 50.83035 19.04745 4.8 Atrakcja
+Cmentarz Żydowski 50.7992 19.16943 4.1 Atrakcja
+Cmentarz Św. Józefa 50.77547 19.14572 4.6 Atrakcja
+Koksownia Częstochowa Nowa Sp. z o.o  50.79869 19.18688 4.5 Atrakcja
+Hala Sportowa Częstochowa Sp. z o.o 50.80449 19.15213 2.5 Atrakcja
+Park Miniatur Złota Góra 50.80953 19.15424 4.4 Atrakcja
+Park im Gabriela Narutowicza 50.81341 19.13568 3.5 Atrakcja
+Rzymskokatolicka parafia pw. św. Zygmunta 50.81175 19.12842 1.4 Atrakcja
+Teatr From Poland 50.81195 19.12536 1.1 Atrakcja
+Filharmonia Częstochowska im. Bronisława Hubermana 50.81392 19.1221 2.4 Atrakcja
+Teatr im. Adama Mickiewicza 50.8149 19.11375 2.1 Atrakcja
+Sąd Okręgowy 50.81585 19.11233 1.9 Atrakcja
+Pomnik ks. Jerzego Popiełuszko 50.81229 19.10381 1.7 Atrakcja
+Klasztor Ojców Paulinów 50.81272 19.09707 3.5 Atrakcja
+Dom Pielgrzyma im. Jana Pawła II 50.81276 19.09348 3.4 Atrakcja
+Centrum Duchowości. Księża Jezuici 50.8115 19.08659 3.1 Atrakcja
+Dom Zakonny SS. Franciszkanek Rodziny Maryi 50.81446 19.08199 2.9 Atrakcja
+Cmentarz św. Rocha 50.8186 19.08645 2.7 Atrakcja
+Kościół Świętych Rocha i Sebastiana 50.81892 19.08622 2.5 Atrakcja
+Kościół pw. Najświętszego Serca Pana Jezusa 50.79063 19.09745 4.4 Atrakcja
+Kościół Nawrócenia Św. Pawła Apostoła 50.77127 19.07452 4.1 Atrakcja
+Kościół Św. Teresy od Dzieciątka Jezus 50.76056 19.06077 3.9 Atrakcja
+"Owczarkowa Zagroda" 50.73949 19.05911 3.7 Atrakcja
+Kościół Św. Kingi 50.75957 19.08306 3.5 Atrakcja
+Kościół Św. Jadwigi Śląskiej 50.77347 19.11673 4.3 Atrakcja
+Muzeum monet i medali Jana Pawła II w Częstochowie 50.78443 19.1254 5 Atrakcja
+Arena Częstochowa 50.80224 19.15313 4.9 Atrakcja
+Kościół Św. Jana z Dukli 50.81441 19.14473 4.5 Atrakcja
+Klasztor O.O. Bernardynów 50.81472 19.14426 2.3 Atrakcja
+Parafia katolicka pw. Opatrzności Bożej 50.82904 19.14737 4 Atrakcja
+Stacja PKP Częstochowa Aniołów 50.83643 19.15396 3.8 Atrakcja
+Kościół Św. Jacka 50.83912 19.16745 3.6 Atrakcja
+Wojewódzki Inspektorat Ochrony Środowiska w Katowicach 50.84445 19.16157 3.4 Atrakcja
+Kościół pw. Najświętszej Maryi Panny Częstochowskiej 50.84229 19.12384 3.3 Atrakcja
+Kościół Św. Brata Alberta Chmielowskiego 50.85085 19.11662 3.1 Atrakcja
+Pierogarnia-Obiady Domowe Kiedrzyn 50.85379 19.10911 2.8 Atrakcja
+Politechnika Częstochowska Wydział Inżynierii Mechanicznej i Informatyki 50.823 19.11615 2.6 Atrakcja
+Politechnika Częstochowska - Wydział Inżynierii Produkcji i Technologii Materiałów 50.82169 19.1168 2.4 Atrakcja
+Wydział Elektryczny Politechnika Częstochowska 50.82078 19.11708 4.3 Atrakcja
+Parafia Katolicka Św. Jadwigi Królowej 50.81993 19.1208 4.1 Atrakcja
+Akademia im. Jana Długosza Wydział Matematyczno-Przyrodniczy 50.81959 19.11706 3.8 Atrakcja
+Akademia im. Jana Długosza Wydział Filologiczno-Historyczny 50.82106 19.11988 3.6 Atrakcja
+Kościół Św. Kazimierza Królewicza 50.83078 19.12285 3.4 Atrakcja
+Muzeum Wyobraźni 50.83157 19.08489 3.2 Atrakcja
+Muzeum Częstochowskie - Dom Poezji - Muzeum Haliny Poświatowskiej  50.81484 19.1158 4 Atrakcja
+Muzeum Częstochowskie 50.81161 19.1122 4.8 Atrakcja
+Muzeum Produkcji Zapałek 50.80315 19.12263 4.6 Atrakcja
+Muzeum Zdzisława Beksińskiego 50.81274 19.1062 4.4 Atrakcja
+Muzeum Częstochowskie - Zagroda Włościańska 50.81059 19.10042 2.2 Atrakcja
+Muzeum Archidiecezji Częstochowskiej 50.80618 19.0969 2 Atrakcja
+Muzeum Historii Kolei w Częstochowie 50.79818 19.10048 3.7 Atrakcja
+Kościół pw Najświętszego Serca Pana Jezusa 50.74427 18.87419 3.5 Atrakcja
+Biedronka 50.74827 18.87629 3.3 Atrakcja
+Parafia pw. Matki Bożej Matki Kościoła 50.73162 18.79901 3.2 Atrakcja
+Parafia rzymskokatolicka św. Wawrzyńca 50.70705 18.74923 3 Atrakcja
+Parafia rzymskokatolicka św. Stanisława Biskupa i Męczennika  50.69188 18.70035 3.7 Atrakcja
+Parafia rzymskokatolicka Nawrócenia św. Pawła 50.77126 19.07421 2.5 Atrakcja
+KFC 50.7779 19.14075 4.2 Atrakcja
+Miejski Dom Kultury 50.78076 19.14457 4 Atrakcja
+Rezerwat Archeologiczny. Oddział Muzeum Częstochowskie 50.78559 19.15032 3.7 Atrakcja
+Kościół NMP Wspomożycielki Wiernych 50.79499 19.15257 3.5 Atrakcja
+Klub Kubusia Puchatka 50.77339 19.11246 3.3 Atrakcja
+Żabka 50.77589 19.12959 3.1 Atrakcja
+Staw na Michalinie 50.76798 19.16652 5 Atrakcja
+Stadion miejski Raków 50.7762 19.15746 4.7 Atrakcja
+Policja. Komenda Miejska. Komisariat VI 50.78617 19.15224 4.5 Atrakcja
+Muzeum Regionalne im. Zygmunta Krasińskiego 50.71254 19.43452 4.3 Atrakcja
+Park Miniatur Zamków Jurajskich 50.73435 19.39532 4.1 Atrakcja
+Sanktuarium Matki Bożej Leśniowskiej Patronki Rodzin 50.63424 19.32975 3.9 Atrakcja
+Ranczo Madejów Przybynów 50.65285 19.30949 3.6 Atrakcja
+Kościół p.w. Najświętszego Serca Pana Jezusa 50.67525 19.19991 3.4 Atrakcja
+Kościół rzymskokatolicki św. Franciszka z Asyżu 50.58007 19.43257 3.2 Atrakcja
+Zamek Mirów 50.57547 19.4566 3.1 Atrakcja
+Królewski Zamek Bobolice 50.57547 19.4566 2.9 Atrakcja
+Zamek Bąkowiec 50.57547 19.4566 2.6 Atrakcja
+Kopalnia Guido w Zabrzu 50.29218 18.75273 9.6 Atrakcja
+Kopalnia Srebra w Tarnowskich Górach 50.35565 19.05219 4.7 Atrakcja
+Skansen w Chorzowie 50.25947 18.9797 4.7 Atrakcja
+Radiostacja w Gliwicach 50.34969 18.41656 4 Atrakcja
+Tyskie Browarium 50.08513 18.9636 4.6 Atrakcja
+Wieże KWK Polska w Świętochłowicach 50.30381 18.90269 4.9 Atrakcja
+Podgrodzie w Będzinie 50.26501 18.56043 3.8 Atrakcja
+Muzeum Pożarnictwa w Mysłowicach 50.23559 19.04068 4.8 Atrakcja
+Skansen Maszyn Parowych w Tarnowskich Górach 50.37814 18.86784 5 Atrakcja
+  Galeria Szyb Wilson w Katowicach 50.25064 19.08143 4.4 Atrakcja
+Ogród Botaniczny w Zabrzu 50.31285 18.64933 4.6 Atrakcja
+Muzeum Minerałów Skarby Ziemi w Bielsku-Białej 49.82346 19.05025 4 Atrakcja
+Muzeum w Tarnowskich Górach 50.4299 18.88351 4.5 Atrakcja
+Muzeum Chleba w Radzionkowie 50.37349 18.84389 4.7 Atrakcja
+Muzeum Górnictwa Węglowego w Zabrzu 50.29832 18.80165 4.4 Atrakcja
+Sztolnia Królowa Luiza w Zabrzu 50.30198 18.80942 4.7 Atrakcja
+Park Militarno-Historyczny Reduta w Dąbrowie Górniczej 50.2862 19.00049 4.7 Atrakcja
+Dom Tkacza w Bielsku-Białej 49.82007 19.03318 4 Atrakcja
+Muzeum w Gliwicach 50.29539 18.66514 4.5 Atrakcja
+Muzeum Sztygarka w Dąbrowie Górniczej 50.29214 19.00305 4.8 Atrakcja
+Muzeum Miasta Mysłowice 50.26403 19.04421 4.8 Atrakcja
+Muzeum w Chorzowie 50.29372 18.94816 3.6 Atrakcja
+Izba Tradycji i Kultury Dawnej w Siewierzu 50.47079 19.22921 4.5 Atrakcja
+Muzeum Saturn w Czeladzi 50.29277 18.87689 5 Atrakcja
+Muzeum Powstań Śląskich w Świętochłowicach 50.28833 18.92324 4.9 Atrakcja
+Galeria Saturn w Czeladzi 50.29822 19.01661 5 Atrakcja
+Muzeum Górnośląskie w Bytomiu 50.34386 18.93915 4.3 Atrakcja
+Zespół Parków Krajobrazowych w Będzinie 50.32684 19.04212 5 Atrakcja
+PKP Chorzów Miasto 50.29861 18.94985 2 Atrakcja
+PKP Chorzów Stary 50.29861 18.94985 3.2 Atrakcja
+PKP Bytom Główny 50.34328 18.91495 3 Atrakcja
+PKP Bytom Karb 50.35017 18.88399 5.2 Atrakcja
+PKP Bytom Północ 50.37808 18.88064 1.2 Atrakcja
+PKP Rodzionków Rojca 50.39582 18.89959 3.5 Atrakcja
+PKP Radzionków 50.4088 18.91462 7.2 Atrakcja
+PKP Nakło Śląskie 50.4298 18.90362 10 Atrakcja
+PKP Tarnowskie Góry 50.44666 18.86471 9 Atrakcja
+PKP Miasteczko Śląskie 50.49533 18.89997 8.4 Atrakcja
+PKP Zwierzyniec 50.53576 18.89166 0 Atrakcja
+PKP Kalety 50.56579 18.88842 10 Atrakcja
+PKP Strzebin 50.61766 18.8998 6 Atrakcja
+PKP Boronów 50.6663 18.90049 2 Atrakcja
+PKP Kalin 50.72827 18.86485 10 Atrakcja
+PKP Herby Nowe 50.74831 18.85486 8 Atrakcja
+PKP Koszęcin 50.74831 18.85486 6 Atrakcja
+PKP Rusinowice 50.64884 18.76519 0 Atrakcja
+PKP Jawornica 50.6707 18.71494 7.4 Atrakcja
+PKP Kochanowice 50.6991 18.74859 3.2 Atrakcja
+PKP Lisów 50.72116 18.79265 6 Atrakcja
+PKP Liswarta 50.73607 18.84458 2 Atrakcja
+PKP Herby Stare 50.74714 18.88143 6.2 Atrakcja
+PKP Blachownia 50.7735 18.96857 2.8 Atrakcja
+PKP Częstochowa Gnaszyn 50.79159 19.03121 8.4 Atrakcja
+PKP Częstochowa Stradom 50.79762 19.10816 7.8 Atrakcja
+PKP Kucelinka 50.77114 19.17693 10 Atrakcja
+PKP Turów 50.76773 19.31772 8 Atrakcja
+PKP Julianka 50.76469 19.47313 10 Atrakcja
+PKP Rybnik Towarowy 50.06678 18.51512 7 Atrakcja
+PKP Rybnik 
