@@ -1,0 +1,18 @@
+﻿
+@{
+    ViewBag.Title = "CalculateDistances";
+}
+
+<h2>CalculateDistances</h2>
+
+@foreach(var place in ViewBag.DistancesToPlaces)
+{
+    <h3>@place.Key.Name</h3>
+    foreach(SamochodElektryczny.Models.DistancePlace distancePlace in @place.Value)
+    {
+        <text>@distancePlace.place.Name</text> <text>@distancePlace.distance </text>
+        <br />
+    }
+}
+
+

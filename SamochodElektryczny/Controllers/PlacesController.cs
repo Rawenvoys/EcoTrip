@@ -124,5 +124,32 @@ namespace SamochodElektryczny.Controllers
             }
             base.Dispose(disposing);
         }
+
+        [HttpGet]
+        public ActionResult CalculateDistances()
+        {
+            Dictionary<Place, List<DistancePlace>> distanceMap = new Dictionary<Place, List<DistancePlace>>();
+            List<Place> places = db.Places.ToList();
+            List<DistancePlace> distances;
+            foreach (Place place in places)
+            {
+                distances = new List<DistancePlace>();
+                DistancePlace dp;
+                Double distance;
+                foreach (Place p in places)
+                {
+                    if (p.Lat != place.Lat && p.Lng != place.Lng)
+                    {
+                        distance = (Math.Acos(Math.Sin(p.Lat * Math.PI / 180) * Math.Sin(place.Lat * Math.PI / 180) + Math.Cos(p.Lat * Math.PI / 180) * Math.Cos(place.Lat * Math.PI / 180) * Math.Cos((p.Lng - place.Lng) * Math.PI / 180)) * 6371);
+                        dp = new DistancePlace(distance, p);
+                        distances.Add(dp);
+                    }
+                }
+
+                distanceMap.Add(place, distances);
+            }
+            ViewBag.DistancesToPlaces = distanceMap;
+            return View();
+        }
     }
 }
