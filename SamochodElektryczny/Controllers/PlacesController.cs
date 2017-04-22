@@ -140,7 +140,8 @@ namespace SamochodElektryczny.Controllers
                 {
                     if (p.Lat != place.Lat && p.Lng != place.Lng)
                     {
-                        distance = (Math.Acos(Math.Sin(p.Lat * Math.PI / 180) * Math.Sin(place.Lat * Math.PI / 180) + Math.Cos(p.Lat * Math.PI / 180) * Math.Cos(place.Lat * Math.PI / 180) * Math.Cos((p.Lng - place.Lng) * Math.PI / 180)) * 6371);
+                        //distance = Math.Sqrt(Math.Pow(place.Lat - p.Lat, 2) + Math.Pow(place.Lng - p.Lng,2));
+                        distance = (Math.Acos(Math.Sin(p.Lat * Math.PI / 180) * Math.Sin(place.Lat * Math.PI / 180) + Math.Cos(p.Lat * Math.PI / 180) * Math.Cos(place.Lat * Math.PI / 180) * Math.Cos((p.Lng* Math.PI / 180) - (place.Lng*Math.PI/180))) * 6371);
                         dp = new DistancePlace(distance, p);
                         distances.Add(dp);
                     }
@@ -149,6 +150,18 @@ namespace SamochodElektryczny.Controllers
                 distanceMap.Add(place, distances);
             }
             ViewBag.DistancesToPlaces = distanceMap;
+            Dictionary<Place, List<DistancePlace>> nearestPlaces = new Dictionary<Place, List<DistancePlace>>();
+            List<DistancePlace> tempPlaces;
+            foreach (var i in distanceMap)
+            {
+                tempPlaces = new List<DistancePlace>();
+                List<DistancePlace> d = i.Value.OrderBy(p => p.distance).ToList();
+                tempPlaces.AddRange(d.Take(4));
+           
+                nearestPlaces.Add(i.Key, tempPlaces);
+            }
+
+            ViewBag.NearestPlaces = nearestPlaces.Take(4);
             return View();
         }
     }
