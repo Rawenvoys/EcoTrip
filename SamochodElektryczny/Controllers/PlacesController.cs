@@ -130,19 +130,29 @@ namespace SamochodElektryczny.Controllers
         {
             Dictionary<Place, List<DistancePlace>> distanceMap = new Dictionary<Place, List<DistancePlace>>();
             List<Place> places = db.Places.ToList();
+            ViewBag.Places = places;
             List<DistancePlace> distances;
             foreach (Place place in places)
             {
                 distances = new List<DistancePlace>();
                 DistancePlace dp;
-                Double distance;
                 foreach (Place p in places)
                 {
                     if (p.Lat != place.Lat && p.Lng != place.Lng)
                     {
+                        double e = place.Lat * (Math.PI / 180);
+                        double f = place.Lng * (Math.PI / 180);
+                        double g = p.Lat * (Math.PI / 180);
+                        double h = p.Lng * (Math.PI / 180);
+                        double i =
+                            (Math.Cos(e) * Math.Cos(g) * Math.Cos(f) * Math.Cos(h)
+                            + Math.Cos(e) * Math.Sin(f) * Math.Cos(g) * Math.Sin(h)
+                            + Math.Sin(e) * Math.Sin(g));
+                        double j = Math.Acos(i);
+                        double k = (6371 * j);
                         //distance = Math.Sqrt(Math.Pow(place.Lat - p.Lat, 2) + Math.Pow(place.Lng - p.Lng,2));
-                        distance = (Math.Acos(Math.Sin(p.Lat * Math.PI / 180) * Math.Sin(place.Lat * Math.PI / 180) + Math.Cos(p.Lat * Math.PI / 180) * Math.Cos(place.Lat * Math.PI / 180) * Math.Cos((p.Lng* Math.PI / 180) - (place.Lng*Math.PI/180))) * 6371);
-                        dp = new DistancePlace(distance, p);
+                        //distance = (Math.Acos(Math.Sin(p.Lat * Math.PI / 180) * Math.Sin(place.Lat * Math.PI / 180) + Math.Cos(p.Lat * Math.PI / 180) * Math.Cos(place.Lat * Math.PI / 180) * Math.Cos((p.Lng* Math.PI / 180) - (place.Lng*Math.PI/180))) * 6371);
+                        dp = new DistancePlace(k, p);
                         distances.Add(dp);
                     }
                 }
@@ -157,11 +167,18 @@ namespace SamochodElektryczny.Controllers
                 tempPlaces = new List<DistancePlace>();
                 List<DistancePlace> d = i.Value.OrderBy(p => p.distance).ToList();
                 tempPlaces.AddRange(d.Take(4));
-           
                 nearestPlaces.Add(i.Key, tempPlaces);
             }
 
             ViewBag.NearestPlaces = nearestPlaces.Take(4);
+            return View();
+        }
+
+        [HttpGet]
+        public ActionResult LinearDistance()
+        {
+            ViewBag.Places = db.Places.ToList();
+            
             return View();
         }
     }

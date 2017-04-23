@@ -231,6 +231,8 @@
     <Content Include="Views\Places\Index.cshtml" />
     <Content Include="Views\Map\Index.cshtml" />
     <Content Include="Views\Places\CalculateDistances.cshtml" />
+    <Content Include="Views\Places\LinearDistance.cshtml" />
+    <Content Include="Views\Places\Test.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

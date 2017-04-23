@@ -4,12 +4,11 @@
 }
 
 <h2>CalculateDistances</h2>
-<div id="map" style="border: 2px solid #3872ac;"></div>
 <text id="summary"></text>
 
 <script type="text/javascript">
 
-    function findPath(lat,lng,lat2,lng2,map) {
+    function findPath(lat, lng, lat2, lng2, map) {
         var marker1 = new google.maps.Marker({
             position: new google.maps.LatLng(lat, lng),
             map: map
@@ -26,20 +25,19 @@
 
         var summaryPanel = document.getElementById('summary');
 
-        //    var flightPlanCoordinates = [
-        //  {lat: lat, lng: lng},
-        //  {lat: lat2, lng: lng2}
-        //];
-        //    var flightPath = new google.maps.Polyline({
-        //        path: flightPlanCoordinates,
-        //        geodesic: true,
-        //        strokeColor: '#FF0000',
-        //        strokeOpacity: 1.0,
-        //        strokeWeight: 2
-        //    });
+        var flightPlanCoordinates = [
+      { lat: lat, lng: lng },
+      { lat: lat2, lng: lng2 }
+        ];
+        var flightPath = new google.maps.Polyline({
+            path: flightPlanCoordinates,
+            geodesic: true,
+            strokeColor: '#FF0000',
+            strokeOpacity: 1.0,
+            strokeWeight: 2
+        });
 
-        //    flightPath.setMap(map);
-          //  summaryPanel.innerHTML += ' * ';
+        flightPath.setMap(map);
 
         directionsService.route({
             origin: marker1.position,
@@ -48,10 +46,10 @@
         }, function (response, status) {
             if (status === 'OK') {
                 var route = response.routes[0];
-                summaryPanel.innerHTML += '('+lat+', '+lng+')'+ '('+lat2+','+lng2+') dlugosc: ' + route.legs[0].distance.text + '<br />';
-                //directionsDisplay.setDirections(response)
-            }else if(status === "OVER_QUERY_LIMIT"){
-                setTimeout(findPath(lat,lng,lat2,lng2,map),1000);
+                summaryPanel.innerHTML += '(' + lat + ', ' + lng + ')' + '(' + lat2 + ',' + lng2 + ') dlugosc: ' + route.legs[0].distance.text + '<br />';
+                directionsDisplay.setDirections(response)
+            } else if (status === "OVER_QUERY_LIMIT") {
+                setTimeout(findPath(lat, lng, lat2, lng2, map), 1000);
             }
             else {
                 window.alert('directions request failed due to ' + status);
@@ -61,12 +59,12 @@
 
 
     function initMap() {
-        //var katowice = { lat: 50.270908, lng: 19.039993 };
-        //var map = new google.maps.Map(document.getElementById('map'), {
-        //    mapTypeId: google.maps.MapTypeId.ROADMAP,
-        //    zoom: 8,
-        //    center: katowice
-        //});
+        var katowice = { lat: 50.270908, lng: 19.039993 };
+        var map = new google.maps.Map(document.getElementById('map'), {
+            mapTypeId: google.maps.MapTypeId.ROADMAP,
+            zoom: 8,
+            center: katowice
+        });
         var summaryPanel = document.getElementById('summary');
 
 
@@ -74,32 +72,22 @@
         var directionsDisplay = new google.maps.DirectionsRenderer;
         directionsDisplay.setMap(map);
 
-
-        @foreach(var place in ViewBag.NearestPlaces){
-
-
-            foreach (SamochodElektryczny.Models.DistancePlace distancePlace in @place.Value)
+        @foreach(var place in ViewBag.DistancesToPlaces)
             {
-                
-                <text>
-                        findPath(@place.Key.Lat, @place.Key.Lng, @distancePlace.place.Lat, @distancePlace.place.Lng, map);
-                </text>
-            }
+                foreach(SamochodElektryczny.Models.DistancePlace distancePlace in @place.Value)
+                {
+                    
+                    <text>summaryPanel.innerHTML += @place.Key.Name + ' -> ' + @distancePlace.place.Name + '   =    ' + @distancePlace.distance;</text>
+                }
         }
     }
 </script>
 
-@*@foreach(var place in ViewBag.NearestPlaces)
+@foreach (var place in ViewBag.DistancesToPlaces)
+{
+    foreach (SamochodElektryczny.Models.DistancePlace distancePlace in @place.Value)
     {
-        <h3>@place.Key.Name</h3>
-        foreach(SamochodElektryczny.Models.DistancePlace distancePlace in @place.Value)
-        {
-            <text>@distancePlace.place.Name</text> <text>@distancePlace.distance </text>
-            <br />
-        }
-    }*@
 
-<script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCj4YtXMcJnyQXuqRiXQwH0XjvFPP95PKI&callback=initMap">
-</script>
-
+        <div>@place.Key.Name -> @distancePlace.place.Name    =     @distancePlace.distance</div>
+    }
+}

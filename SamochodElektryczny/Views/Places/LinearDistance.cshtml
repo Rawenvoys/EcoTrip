@@ -1,0 +1,87 @@
+﻿<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false&libraries=geometry"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+@{
+    ViewBag.Title = "LinearDistance";
+}
+
+<h2>LinearDistance</h2>
+<button id="btn">Calc</button>
+<text id="res"></text>
+
+<script type="text/javascript">
+    //var p1 = new google.maps.LatLng(50.27191, 18.86805);
+    //var p2 = new google.maps.LatLng(50.26353, 19.02629);
+    var text = document.getElementById('res');
+    var tablica = new Array(322);
+    for (var i = 0; i < tablica.length; i++) {
+        tablica[i] = new Array(322);
+    }
+    
+    @{
+        int iteration = 0;
+    }
+
+    var it = 0;
+    $(document).ready(function(){
+        $("#btn").click(function() {
+            calculate();
+        });
+    });
+
+
+
+    @*@for(int x=90; x<100; x++)
+    {
+        foreach(SamochodElektryczny.Models.Place place in ViewBag.Places.GetRange(x,1))
+        {
+            var i = x;
+            var j = 0;
+            foreach(SamochodElektryczny.Models.Place p in ViewBag.Places)
+            {
+                <text>
+    var p1 = new google.maps.LatLng(@place.Lat, @place.Lng);
+    var p2 = new google.maps.LatLng(@p.Lat, @place.Lng);
+    var result = calcDistance(p1,p2);
+    var placeText = '@place.Name';
+    var pText = '@p.Name';
+    tablica[@x][@j] = result;
+    text.innerHTML += @x + ' - ' + @j + '  =  ' + result + '<br />';
+    </text>
+                j++;
+            }
+            i++;
+        }
+    }*@
+
+    function calculate(){
+
+        @if(iteration <= 321) {
+            iteration++;
+        foreach(SamochodElektryczny.Models.Place place in ViewBag.Places.GetRange(iteration,1))
+        {
+            var x = iteration - 1;
+            var j = 0;
+            foreach (SamochodElektryczny.Models.Place p in ViewBag.Places)
+            {
+                        <text>
+        var p1 = new google.maps.LatLng(@place.Lat, @place.Lng);
+        var p2 = new google.maps.LatLng(@p.Lat, @place.Lng);
+        var result = calcDistance(p1,p2);
+        var placeText = '@place.Name';
+        var pText = '@p.Name';
+        tablica[@x][@j] = result;
+        text.innerHTML += @x + ' - ' + @j + '  =  ' + result + '<br />';
+        </text>
+                        j++;
+             }
+        }
+    }
+    }
+
+
+
+    function calcDistance(p1, p2) {
+        return (google.maps.geometry.spherical.computeDistanceBetween(p1, p2) / 1000);
+    }
+</script>
+
